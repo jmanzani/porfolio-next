@@ -40,7 +40,7 @@ export default function Home() {
               <LinkedIn cssClass="size-4 lg:size-6" />
               Linkedin
             </SocialPill>
-            <SocialPill url="https://github.com/JesusManzanequeIniesta">
+            <SocialPill url="https://github.com/jmanzani">
               <GitHub cssClass="size-4 lg:size-6" />
               Github
             </SocialPill>
@@ -48,9 +48,9 @@ export default function Home() {
               <Email cssClass="size-4 lg:size-6" />
               jesusmanzanequeiniesta@gmail.com
             </SocialPill>
-            <SocialPill url="#">
+            <SocialPill url="minimalist.jmanzani.com">
               <Download cssClass="size-4 lg:size-6" />
-              Curriculum Vitae (Próximamente...)
+              Curriculum Vitae
             </SocialPill>
           </nav>
         </SectionContainer>

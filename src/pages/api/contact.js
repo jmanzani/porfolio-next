@@ -32,7 +32,10 @@ async function sendEmail(request, response) {
       from: username, // sender address
       to: myEmail, // list of receivers
       subject: subject, // Subject line
-      html: `<p>${message}</p>`, // html body
+      html: `
+        <h2>Mensaje enviado por ${toEmail}</h2>
+        <p>${message}</p>
+        `, // html body
     });
 
     console.log("Message sent: %s", info.messageId);
