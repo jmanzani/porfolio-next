@@ -1,40 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portafolio Personal con Next.js
 
-## Getting Started
+Este es mi portafolio personal desarrollado con Next.js, una aplicación web moderna para mostrar mis habilidades, proyectos y experiencia.
 
-First, run the development server:
+## Descripción
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este proyecto es un portafolio web diseñado para destacar mis habilidades como desarrollador y mostrar los proyectos en los que he trabajado.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Características
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Diseño moderno y responsivo.
+- Secciones para mostrar información personal, habilidades, proyectos y contacto.
+- Integración de datos dinámicos para una fácil actualización del contenido.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Capturas de Pantalla
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![Captura de pantalla Portfolio Modo Claro](public/portfolio-clear.webp)
+![Captura de pantalla Portfolio Modo Oscuro](public/portfolio-dark.webp)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tecnologías Utilizadas
 
-## Learn More
+- **Next.js**: Para la construcción de la aplicación web.
+- **React**: Para la creación de componentes reutilizables.
+- **Tailwind**: Para estilos más dinamicos.
+- **Docker**: Para despliegue y hosting.
 
-To learn more about Next.js, take a look at the following resources:
+## Instalación y Uso
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clona este repositorio: `git clone https://github.com/jmanzani/porfolio-next.git`
+2. Instala las dependencias: `pnpm install`
+3. Inicia el servidor de desarrollo: `pnpm run dev`
+4. Abre tu navegador y ve a `http://localhost:3000`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Licencia
 
-## Deploy on Vercel
+Este proyecto está bajo la licencia GPL. Para más detalles, consulta el archivo `LICENSE`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contacto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Email:  contacto@jmanzani.com
