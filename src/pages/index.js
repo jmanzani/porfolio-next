@@ -15,7 +15,7 @@ import Person from "@/components/icons/Person";
 export default function Home() {
   return (
     <Layout
-      title="Porfolio de Jesús - Desarrollador y programador Web"
+      title="Portafolio de Jesús - Desarrollador y programador Web"
       description="Descripción"
     >
       <main className="px-4">
