@@ -18,7 +18,7 @@ async function sendEmail(request, response) {
   const toEmail =bodyRequest.email;
   const message = bodyRequest.message;
   const transporter = nodemailer.createTransport({
-    host: "smtp.jmanzani.com",
+    host: "mail.jmanzani.com",
     port: 465,
     secure: true,
     auth: {
