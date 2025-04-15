@@ -1,4 +1,4 @@
-FROM node:23-slim
+FROM node:lts-slim
 WORKDIR /jmanzani-porfolio
 
 COPY . .
