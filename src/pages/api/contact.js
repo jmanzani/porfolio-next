@@ -48,6 +48,10 @@ async function sendEmail(request, response) {
             <br />
             <p>En cuanto me sea posible contactaré contigo. Este es el mensaje que me has mandado:</p>
             <br />
+            <h2>Thanks for contacting me<h2/>
+            <br />
+            <p>As soon as possible I will contact you. This is the message you sent to me:</p>
+            <br />
             <p>${message}</p>
         `,
     });

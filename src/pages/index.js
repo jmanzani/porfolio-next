@@ -21,7 +21,7 @@ export default function Home() {
       <main className="px-4">
         <SectionContainer cssClass="py-44 pb-32">
           <h1 className="flex flex-row gap-x-4 pb-6 text-3xl font-bold text-gray-900 md:text-4xl lg:pb-10 lg:text-5xl dark:text-white">
-            Hola! Soy Jesús{" "}
+            ¡Hola! Soy Jesús{" "}
             <a
               href="https://linkedin.com/jesusmanzanequeiniesta"
               target="_blank"
@@ -32,7 +32,7 @@ export default function Home() {
             </a>
           </h1>
           <h2 className="max-w-[700px] text-wrap text-xl text-black lg:text-2xl dark:text-white">
-            2 años de experiencia. Desarrollador Web de La Puebla de Almoradiel,
+            3 años de experiencia. Desarrollador Web de La Puebla de Almoradiel,
             España.
           </h2>
           <nav className="mt-8 flex flex-wrap gap-4">
@@ -48,10 +48,10 @@ export default function Home() {
               <Email cssClass="size-4 lg:size-6" />
               jesusmanzanequeiniesta@gmail.com
             </SocialPill>
-            <SocialPill url="https://minimalist.jmanzani.com">
+            {/* <SocialPill url="https://minimalist.jmanzani.com">
               <Download cssClass="size-4 lg:size-6" />
               Curriculum Vitae
-            </SocialPill>
+            </SocialPill> */}
           </nav>
         </SectionContainer>
         <SectionContainer id="experiencia">
