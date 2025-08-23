@@ -13,9 +13,9 @@ export default function Footer() {
             <a href="#sobre-mi" className="hover:underline me-4 md:me-6">
               Sobre mí
             </a>
-            <a href="#contacto" className="hover:underline me-4 md:me-6">
+            {/* <a href="#contacto" className="hover:underline me-4 md:me-6">
               Contacto
-            </a>
+            </a> */}
           </li>
         </ul>
       </div>
