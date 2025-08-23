@@ -91,9 +91,9 @@ export default function Home() {
             </p>
           </div>
         </SectionContainer>
-        <SectionContainer id="contacto">
+        {/* <SectionContainer id="contacto">
           <ContactForm />
-        </SectionContainer>
+        </SectionContainer> */}
       </main>
     </Layout>
   );
