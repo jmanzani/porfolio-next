@@ -11,7 +11,7 @@ import Person from "@/components/icons/Person";
 export default function Home() {
   return (
     <Layout
-      title="Portafolio de Jesús - Full Stack Developer"
+      title="Jesús Manzaneque · Full Stack Developer"
       description="Portfolio de Jesús Manzaneque Iniesta, Full Stack Developer con más de 3 años de experiencia en Toledo, España."
     >
       <main className="px-4">
