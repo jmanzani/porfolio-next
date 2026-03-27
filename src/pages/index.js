@@ -47,7 +47,7 @@ export default function Home() {
               <Email cssClass="size-4 lg:size-6" />
               jesusmanzanequeiniesta@gmail.com
             </SocialPill>
-            <SocialPill url="/cv.pdf">
+            <SocialPill url="https://drive.google.com/uc?export=download&id=1ZU5BYR1V5QKJZzo2JufFkn6kMWooRhhQ">
               <Download cssClass="size-4 lg:size-6" />
               Curriculum Vitae
             </SocialPill>
