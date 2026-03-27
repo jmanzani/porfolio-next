@@ -1,97 +1,49 @@
 import Layout from "@/components/layout";
-import Badge from "@/components/Badge";
 import SectionContainer from "@/components/SectionContainer";
-import SocialPill from "@/components/SocialPill";
+import HeroSection from "@/components/HeroSection";
 import Experience from "@/components/Experience";
+import SkillsSection from "@/components/SkillsSection";
+import AboutSection from "@/components/AboutSection";
 import ContactForm from "@/components/ContactForm";
-
-import LinkedIn from "@/components/icons/LinkedIn";
-import GitHub from "@/components/icons/GitHub";
-import Email from "@/components/icons/Email";
-import Download from "@/components/icons/Download";
 import Briefcase from "@/components/icons/Briefcase";
+import Code from "@/components/icons/Code";
 import Person from "@/components/icons/Person";
 
 export default function Home() {
   return (
     <Layout
-      title="Portafolio de Jesús - Desarrollador y programador Web"
-      description="Descripción"
+      title="Portafolio de Jesús - Full Stack Developer"
+      description="Portfolio de Jesús Manzaneque Iniesta, Full Stack Developer con más de 3 años de experiencia en Toledo, España."
     >
       <main className="px-4">
-        <SectionContainer cssClass="py-44 pb-32">
-          <h1 className="flex flex-row gap-x-4 pb-6 text-3xl font-bold text-gray-900 md:text-4xl lg:pb-10 lg:text-5xl dark:text-white">
-            ¡Hola! Soy Jesús{" "}
-            <a
-              href="https://linkedin.com/jesusmanzanequeiniesta"
-              target="_blank"
-              rel="noopener"
-              className="flex items-center justify-center"
-            >
-              <Badge>Trabajando</Badge>
-            </a>
-          </h1>
-          <h2 className="max-w-[700px] text-wrap text-xl text-black lg:text-2xl dark:text-white">
-            Más de 3 años de experiencia. Full Stack Developer en Toledo, España.
-          </h2>
-          <nav className="mt-8 flex flex-wrap gap-4">
-            <SocialPill url="https://www.linkedin.com/in/jesusmanzanequeiniesta/">
-              <LinkedIn cssClass="size-4 lg:size-6" />
-              Linkedin
-            </SocialPill>
-            <SocialPill url="https://github.com/jmanzani">
-              <GitHub cssClass="size-4 lg:size-6" />
-              Github
-            </SocialPill>
-            <SocialPill url="mailto:jesusmanzanequeiniesta@gmail.com">
-              <Email cssClass="size-4 lg:size-6" />
-              jesusmanzanequeiniesta@gmail.com
-            </SocialPill>
-            <SocialPill url="https://drive.google.com/uc?export=download&id=1ZU5BYR1V5QKJZzo2JufFkn6kMWooRhhQ">
-              <Download cssClass="size-4 lg:size-6" />
-              Curriculum Vitae
-            </SocialPill>
-          </nav>
+        <SectionContainer id="top" cssClass="py-44 pb-32">
+          <HeroSection />
         </SectionContainer>
+
         <SectionContainer id="experiencia">
           <h2 className="mb-6 flex items-center gap-x-2 text-2xl font-semibold text-black/80 dark:text-white/80">
             <Briefcase cssClass="size-7" /> Experiencia laboral
           </h2>
           <Experience />
         </SectionContainer>
+
+        <SectionContainer id="habilidades">
+          <h2 className="mb-6 flex items-center gap-x-2 text-2xl font-semibold text-black/80 dark:text-white/80">
+            <Code cssClass="size-7" /> Habilidades
+          </h2>
+          <SkillsSection />
+        </SectionContainer>
+
         <SectionContainer id="sobre-mi">
           <h2 className="mb-6 flex items-center gap-x-2 text-2xl font-semibold text-black/80 dark:text-white/80">
             <Person cssClass="size-7" /> Sobre mí
           </h2>
-          <div className="flex items-center">
-            <img
-              className="mb-3 size-20 rounded-full"
-              src="https://avatars.githubusercontent.com/u/83214852?v=4"
-              alt="Foto de Jesús Manzaneque"
-            />
-            <h3 className="mx-5 max-w-[700px] text-wrap text-xl text-black lg:text-2xl dark:text-white">
-              Jesús Manzaneque Iniesta
-            </h3>
-          </div>
-          <div>
-            <p className="max-w-[700px] text-wrap text-lg text-black dark:text-white">
-              Llevo ligado al mundo de la informática desde los 11 años, cuando
-              me regalaron mi primer ordenador. Desde entonces no he parado:
-              siempre estoy al tanto de las últimas novedades en tecnología y me
-              encanta saber qué viene después.
-              <br />
-              <br />
-              Desde 2022 trabajo como desarrollador, y en estos años he pasado
-              de junior a asumir el liderazgo técnico de un proyecto enterprise
-              en solitario. Fuera del código, soy un apasionado de la automoción
-              y la música pop asiática. Persona directa, con las ideas claras y
-              ganas de seguir creciendo.
-            </p>
-          </div>
+          <AboutSection />
         </SectionContainer>
-        {/* <SectionContainer id="contacto">
+
+        <SectionContainer id="contacto">
           <ContactForm />
-        </SectionContainer> */}
+        </SectionContainer>
       </main>
     </Layout>
   );
