@@ -9,14 +9,10 @@ export default function Footer() {
           </a>
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0">
-          <li>
-            <a href="#sobre-mi" className="hover:underline me-4 md:me-6">
-              Sobre mí
-            </a>
-            {/* <a href="#contacto" className="hover:underline me-4 md:me-6">
-              Contacto
-            </a> */}
-          </li>
+          <li><a href="#top" className="hover:underline me-4 md:me-6">Inicio</a></li>
+          <li><a href="#experiencia" className="hover:underline me-4 md:me-6">Experiencia</a></li>
+          <li><a href="#habilidades" className="hover:underline me-4 md:me-6">Habilidades</a></li>
+          <li><a href="#sobre-mi" className="hover:underline">Sobre mí</a></li>
         </ul>
       </div>
     </footer>
