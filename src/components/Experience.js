@@ -4,12 +4,13 @@ import ExperienceItem from "./ExperienceItem";
 export default function Experience() {
   const experiences = [
     {
-      date: "Mar 2022 – Abr 2024",
-      title: "Junior Engineer",
-      company: "NTT DATA",
+      date: "Abr 2025 – Actualidad",
+      title: "Técnico de Desarrollo",
+      company: "SOLIMAT",
+      leadershipBadge: "Líder de Proyecto en funciones · oct. 2025 – abr. 2026",
       description:
-        "Entré en prácticas y fui contratado en junio de 2022. Trabajé en un proyecto ERP con C#, ASP.NET y Transact-SQL. Integré y consumí APIs REST con Postman. Elaboré documentación técnica: manuales de usuario y guías de integración. En verano de 2023 me incorporé a un proyecto Salesforce, realizando tareas de mantenimiento y actualización de la plataforma CRM.",
-      isActive: false,
+        "Me incorporé directamente a SOLIMAT desarrollando y manteniendo dos aplicaciones enterprise de gestión y afiliación de trabajadores, empresas y autónomos. A partir de octubre de 2025, y sin dejar mis tareas de desarrollo, asumí en solitario la dirección técnica completa del proyecto durante 6 meses. Tecnologías: ASP.NET Framework, WinUI 3, MAUI, Entity Framework, WCF, gRPC, SSIS, SQL Server, Azure y Azure DevOps.",
+      isActive: true,
     },
     {
       date: "Abr 2024 – Abr 2025",
@@ -20,13 +21,12 @@ export default function Experience() {
       isActive: false,
     },
     {
-      date: "Abr 2025 – Actualidad",
-      title: "Técnico de Desarrollo",
-      company: "SOLIMAT",
-      leadershipBadge: "Líder de Proyecto en funciones · oct. 2025 – abr. 2026",
+      date: "Mar 2022 – Abr 2024",
+      title: "Junior Engineer",
+      company: "NTT DATA",
       description:
-        "Me incorporé directamente a SOLIMAT desarrollando y manteniendo dos aplicaciones enterprise de gestión y afiliación de trabajadores, empresas y autónomos. A partir de octubre de 2025, y sin dejar mis tareas de desarrollo, asumí en solitario la dirección técnica completa del proyecto durante 6 meses. Tecnologías: ASP.NET Framework, WinUI 3, MAUI, Entity Framework, WCF, gRPC, SSIS, SQL Server, Azure y Azure DevOps.",
-      isActive: true,
+        "Entré en prácticas y fui contratado en junio de 2022. Trabajé en un proyecto ERP con C#, ASP.NET y Transact-SQL. Integré y consumí APIs REST con Postman. Elaboré documentación técnica: manuales de usuario y guías de integración. En verano de 2023 me incorporé a un proyecto Salesforce, realizando tareas de mantenimiento y actualización de la plataforma CRM.",
+      isActive: false,
     },
   ];
 
