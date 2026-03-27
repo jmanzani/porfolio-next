@@ -4,7 +4,6 @@ import HeroSection from "@/components/HeroSection";
 import Experience from "@/components/Experience";
 import SkillsSection from "@/components/SkillsSection";
 import AboutSection from "@/components/AboutSection";
-import ContactForm from "@/components/ContactForm";
 import Briefcase from "@/components/icons/Briefcase";
 import Code from "@/components/icons/Code";
 import Person from "@/components/icons/Person";
@@ -41,9 +40,6 @@ export default function Home() {
           <AboutSection />
         </SectionContainer>
 
-        <SectionContainer id="contacto">
-          <ContactForm />
-        </SectionContainer>
       </main>
     </Layout>
   );
