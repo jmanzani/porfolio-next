@@ -32,8 +32,7 @@ export default function Home() {
             </a>
           </h1>
           <h2 className="max-w-[700px] text-wrap text-xl text-black lg:text-2xl dark:text-white">
-            3 años de experiencia. Desarrollador Web de La Puebla de Almoradiel,
-            España.
+            Más de 3 años de experiencia. Full Stack Developer en Toledo, España.
           </h2>
           <nav className="mt-8 flex flex-wrap gap-4">
             <SocialPill url="https://www.linkedin.com/in/jesusmanzanequeiniesta/">
@@ -48,10 +47,10 @@ export default function Home() {
               <Email cssClass="size-4 lg:size-6" />
               jesusmanzanequeiniesta@gmail.com
             </SocialPill>
-            {/* <SocialPill url="https://minimalist.jmanzani.com">
+            <SocialPill url="/cv.pdf">
               <Download cssClass="size-4 lg:size-6" />
               Curriculum Vitae
-            </SocialPill> */}
+            </SocialPill>
           </nav>
         </SectionContainer>
         <SectionContainer id="experiencia">
@@ -76,18 +75,17 @@ export default function Home() {
           </div>
           <div>
             <p className="max-w-[700px] text-wrap text-lg text-black dark:text-white">
-              Nacido el 30 de Agosto del 2002, he estado ligado al mundo de la
-              informática desde los 11 años cuando me regalaron mi primer
-              ordenador. Siempre estoy conectado al mundo de la tecnología, me
-              encanta saber que será lo siguiente y estar al tanto de las
-              novedades en este campo.
+              Llevo ligado al mundo de la informática desde los 11 años, cuando
+              me regalaron mi primer ordenador. Desde entonces no he parado:
+              siempre estoy al tanto de las últimas novedades en tecnología y me
+              encanta saber qué viene después.
               <br />
               <br />
-              Desde el año 2022 soy desarrollador web, y, a pesar de ser junior,
-              siempre estoy tratando de aprender y mejorar mis habilidades como
-              programador. Si tuviera que hablar sobre mí, diría que soy un
-              apasionado por el mundo de la automoción y la música pop asiática.
-              Además soy una persona directa y natural con ideas muy claras
+              Desde 2022 trabajo como desarrollador, y en estos años he pasado
+              de junior a asumir el liderazgo técnico de un proyecto enterprise
+              en solitario. Fuera del código, soy un apasionado de la automoción
+              y la música pop asiática. Persona directa, con las ideas claras y
+              ganas de seguir creciendo.
             </p>
           </div>
         </SectionContainer>

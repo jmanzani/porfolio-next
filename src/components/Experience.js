@@ -3,33 +3,31 @@ import ExperienceItem from "./ExperienceItem";
 export default function Experience() {
   const experiences = [
     {
-      date: "Marzo 2022 - Abril 2024",
+      date: "Mar 2022 – Abr 2024",
       title: "Junior Engineer - NTT DATA",
-      description: "Durante las prácticas y hasta Junio del 2023 estuve trabajando en un proyecto de ERP desarrollado en C# y ASP.Net. Además utilizando Transact-SQL para procedimientos almacenados y manejo de las tablas del proyecto. Para pruebas de API utilizaba JUnit y Postman. Después me cambiaron de proyecto a uno de SalesForce donde estuve realizando labores de mantenimiento y actualización conforme a los requerimientos que nos marcaba el cliente."
+      description: "Entré en prácticas y fui contratado en junio de 2022. Trabajé en un proyecto ERP con C#, ASP.NET y Transact-SQL. Integré y consumí APIs REST con Postman. Elaboré documentación técnica: manuales de usuario y guías de integración. En verano de 2023 me incorporé a un proyecto Salesforce, realizando tareas de mantenimiento y actualización de la plataforma CRM."
     },
     {
-      date: "Abril 2024 - Marzo 2025",
+      date: "Abr 2024 – Abr 2025",
       title: "Associate Software Engineer - COFORGE",
-      description: "Proyecto de aplicación Windows utilizando WinUI 3, C#, Entity Framework y SQL para el cliente y mantenimiento de aplicacion Web ASP.NET. Además se atienden soportes de los clientesa través de telefono y correo electronico."
+      description: "Trabajé integrado como externo en las instalaciones de SOLIMAT, en el mismo proyecto que en mi etapa posterior. Desarrollé módulos en ASP.NET Framework, WinUI 3 y Entity Framework. Trabajé con SQL Server y SSIS para la gestión de datos de afiliados, e integré servicios en la nube con WCF y gRPC."
     },
     {
-      date: "Abril 2025 - Actualidad",
-      title: "Tecnico de Desarrollo - SOLIMAT",
-      description: "Proyecto de aplicación Windows utilizando WinUI 3, C#, Entity Framework y SQL para el cliente y mantenimiento de aplicacion Web ASP.NET. Además se atienden soportes de los clientesa través de telefono y correo electronico."
+      date: "Abr 2025 – Actualidad",
+      title: "Técnico de Desarrollo | Líder de Proyecto en funciones (oct. 2025 – abr. 2026)",
+      description: "Me incorporé directamente a SOLIMAT desarrollando y manteniendo dos aplicaciones enterprise de gestión y afiliación de trabajadores, empresas y autónomos. A partir de octubre de 2025, y sin dejar mis tareas de desarrollo, asumí en solitario la dirección técnica completa del proyecto durante 6 meses. Tecnologías: ASP.NET Framework, WinUI 3, MAUI, Entity Framework, WCF, gRPC, SSIS, SQL Server, Azure y Azure DevOps."
     }
-
-
   ]
   return(
-    <ol className="relative border-s border-gray-200 dark:border-gray-700 ml-3">  
+    <ol className="relative border-s border-gray-200 dark:border-gray-700 ml-3">
       {
         experiences.map(experience => (
-                      
+
           <li className="mb-10 ms-4">
             <ExperienceItem {...experience} />
           </li>
         ))
-      }      
+      }
     </ol>
   )
 }

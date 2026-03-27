@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="rounded-lg shadow m-4 bg-black/5 dark:bg-black/20 backdrop-blur-lg w-full xl:w-[1120px] mx-auto mb-10">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span className="text-sm sm:text-center text-yellow-800/90 dark:text-yellow-200/90">
-          © 2024{" "}
+          © {new Date().getFullYear()}{" "}
           <a href="https://jmanzani.com/" className="hover:underline">
             jmanzani
           </a>
